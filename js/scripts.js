@@ -45,3 +45,13 @@ window.addEventListener('DOMContentLoaded', event => {
     });
 
 });
+document.addEventListener("DOMContentLoaded", function() {
+    var video = document.querySelector('video');
+    if (video) {
+        video.autoplay = true;  // Reproducción automática
+        video.loop = true;      // Reproducción en bucle
+        video.muted = true;     // Silencio para permitir el autoplay
+        video.removeAttribute('controls'); // Elimina los controles
+        video.play();           // Inicia la reproducción
+    }
+});
