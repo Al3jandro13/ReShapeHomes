@@ -595,6 +595,11 @@ progress {
   height: auto;
 }
 
+video {
+  width: 70%;
+  height: auto;
+}
+
 .img-thumbnail {
   padding: 0.25rem;
   background-color: #fff;
